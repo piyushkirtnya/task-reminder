@@ -1,15 +1,15 @@
 *{
     margin: 0px;
     padding: 0px;
-}
+    /* display: flex; */
 }
 
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0; 
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
 }
 .main{
     border: 2px solid black;
@@ -20,7 +20,7 @@ body{
     row-gap: 10px;
     background-color: rgb(190, 85, 185);
     padding: 10px;
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.705)
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.705);
 }
 h3{
     margin: 10px;
