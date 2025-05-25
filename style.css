@@ -18,6 +18,7 @@ body{
     row-gap: 10px;
     background-color: rgb(190, 85, 185);
     padding: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.705)
 }
 h3{
     margin: 10px;
