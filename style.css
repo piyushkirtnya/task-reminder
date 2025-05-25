@@ -22,6 +22,17 @@ body{
     padding: 10px;
     box-shadow: 10px 10px rgba(0, 0, 0, 0.705);
 }
+
+@media screen and (max-width:670px) {
+    .main{
+        width: 50vw
+    }
+}
+@media screen and (max-width:450px) {
+    .main{
+        width: 70vw
+    }
+}
 h3{
     margin: 10px;
     width: 100%;
